@@ -14,7 +14,7 @@
 <form action="SalvaValores.php" method="POST">
         <input name="matricula"  type = "text"  placeholder="matricula" /> 
 	<input name="nome"       type = "text"  placeholder="nome" />         
-	<input name="endereço"   type = "text"  placeholder="endereço"  /> 
+	<input name="endereco"   type = "text"  placeholder="endereço"  /> 
 	<input name="cep"        type = "text"  placeholder="cep"  /> 
 	<input name="nascimento" type = "text"  placeholder="nascimento"  /> 
         <input type="submit"     name="submit"  value = "submit"/>
