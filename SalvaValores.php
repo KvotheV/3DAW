@@ -6,10 +6,10 @@ if(
    isset($_POST['cep'])       && 
    isset($_POST['nascimento'])) {
 
-    $data = 'matricula: '  . $_POST['matricula'] . "\n"
-	    'nome: '       . $_POST['nome'] . "\n"
-	    'endereço: '   . $_POST['endereco'] . "\n"
-	    'cep: '        . $_POST['cep'] . "\n"
+    $data = 'matricula: '  . $_POST['matricula']  . "\n" .
+	    'nome: '       . $_POST['nome']       . "\n" .
+	    'endereço: '   . $_POST['endereco']   . "\n" .
+	    'cep: '        . $_POST['cep']        . "\n" .
 	    'nascimento: ' . $_POST['nascimento'] . "\n";
 
     $filename = date('YmdHis').".txt";
