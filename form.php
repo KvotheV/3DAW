@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>  
+<html>
+<head>
+<style>
+.error {color: #FF0000;}
+</style>
+</head>
+<body>  
+
+<?php
+
+<h2>PHP Form Validation Example</h2>
+<p><span class="error">* required field</span></p>
+<form action="SalvaValores.php" method="POST">
+        <input name="matricula"  type = "text"  placeholder="matricula" /> 
+	<input name="nome"       type = "text"  placeholder="nome" />         
+	<input name="endereço"   type = "text"  placeholder="endereço"  /> 
+	<input name="cep"        type = "text"  placeholder="cep"  /> 
+	<input name="nascimento" type = "text"  placeholder="nascimento"  /> 
+        <input type="submit"     name="submit"  value = "submit"/>
+</form>
+
+</body>
+</html>
